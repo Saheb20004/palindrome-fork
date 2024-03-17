@@ -1,4 +1,3 @@
-import java.util.*;
 import java.util.Scanner;
 public class palindrome {
 public static void main(String args[]){
@@ -12,11 +11,12 @@ public static void main(String args[]){
     num=num/10;
    }
    if(org_num==rev){
-    System.out.println(org_num+"is palindrome");
+    System.out.println(org_num+" is palindrome");
    }
    else{
-    System.out.println(org_num+"is not palindrome");
+    System.out.println(org_num+" is not palindrome");
    }
+   src.close();
 }
 }
 
